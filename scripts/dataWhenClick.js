@@ -1,4 +1,6 @@
 async function buttonLog(id, value, buttonPressed) {
+    window.open(value,"_self");
+    return true;
     // alert(id)
     date = new Date()
 
